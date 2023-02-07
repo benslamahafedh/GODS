@@ -224,6 +224,8 @@ h2 {
   position: absolute;
   top: 950px;
   height: 700px;
+  padding: 50px;
+  background-color: #1d202b4b;
   width: 100%;
 }
 
@@ -344,8 +346,11 @@ p {
   align-items: center;
   flex-wrap: wrap;
   gap: 15px;
+  margin-top: 800px;
+  margin-bottom: 200px;
   padding: 20px 9%;
   padding-bottom: 70px;
+  background-color: #b0bdc177;
 }
 
 .banner .slide-container .slide .content {
@@ -583,14 +588,16 @@ p {
   position: relative;
   top: 400px;
   margin-top: 700px;
+  /* background-color: #000000; */
+  
 }
 .form{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
-
+  height: auto;
 }
+
 .par{
   color: black;
   font-size: 20px;
