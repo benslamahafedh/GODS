@@ -615,7 +615,7 @@ p {
   .banner-home {
     object-fit: contain;
     transform: translateX(-250px);
-    width: 80%;
+    width: 100%;
   }
   .slogan {
     transform: translate(-290px, -200px);
