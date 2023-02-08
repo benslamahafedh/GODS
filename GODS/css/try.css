@@ -555,6 +555,9 @@ ul {
   color: #1d202b;
   transition: all 0.5s ease;
 }
+.item-small{
+  display: none;
+}
 
 .f-col .icon-right a:hover {
   color: #b0bdc1;
