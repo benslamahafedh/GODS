@@ -555,8 +555,10 @@ ul {
   color: #1d202b;
   transition: all 0.5s ease;
 }
+@media (min-width: 767px) {
 .item-small{
   display: none;
+}
 }
 
 .f-col .icon-right a:hover {
@@ -595,6 +597,9 @@ p {
   align-items: center;
   height: auto;
 }
+.form-child{
+  transform: translateY(-50px);
+}
 
 .par {
   color: black;
@@ -609,6 +614,9 @@ p {
     animation: none !important;
 
     overflow-x: hidden;
+  }
+  .form-child{
+    transform: translateY(0px);
   }
   #home1 {
     height: 500px;
